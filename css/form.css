@@ -2,10 +2,7 @@
     box-sizing: border-box;
 }
 .main-container{
-    background-image: url("https://source.unsplash.com/user/erondu/1600x900");
-    height: 100vh;
-
-  
+    background-image: url("https://source.unsplash.com/user/erondu/1600x900");  
 }
 .grid-container{
     display:grid;
@@ -148,9 +145,6 @@ footer p{
         align-items: center;
         justify-items: center;
     }
-    .email-page{
-        height: 90vh;
-    }
 }
 @media (min-width:992px){
     .grid-container{
@@ -163,9 +157,6 @@ footer p{
         background-size: cover;
         align-items: center;
         justify-items: center;
-    }
-    .email-page{
-        height: 90vh;
     }
 }
    
