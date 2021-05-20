@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="main-container">
+            <div class="grid-container col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <section id="first-section" class="sectionpart row">
+                    <div class="empty"></div>
+                    <div class="Signup-page">
+                       
+                        <header>
+                            <h1>Create an account</h1>
+                            <p>
+                                Already have an account?<span><a href="#">Sign in</a></span>
+                            </p>
+                        </header>
+                        <form action="#">
+                            <label for="email">Email address</label>
+                            <input type="text">
+                            <div id="detail" class="row">
+                                <div class="item col-sm-6 pull-left mt-4">
+                                    <label for="first name">First name</label>
+                                    <input type="text">
+                                </div>
+                                <div class="item col-sm-6 pull-left mt-4">
+                                    <label for="last-name">Last name</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            
+                            <div class="mt-4">
+                                <label for="password">Password</label>
+                                <input type="password">
+                            </div>
+                            <div class="Dob mt-4">
+                                <p>Date of Birth <i class="fa fa-info-circle" aria-hidden="true"></i> </p>
+                                <div class="row">
+                                    <div class="col-sm-4 pull-left ">
+                                        <label for="month">Month</label>
+                                        <input list="month-list" type="text">
+                                        <datalist id="month-list">
+                                            <option value="January"></option>
+                                            <option value="February"></option>
+                                            <option value="March"></option>
+                                            <option value="April"></option>
+                                            <option value="May"></option>
+                                            <option value="June"></option>
+                                            <option value="July"></option>
+                                            <option value="August"></option>
+                                            <option value="September"></option>
+                                            <option value="October"></option>
+                                            <option value="November"></option>
+                                            <option value="December"></option>  
+                                        </datalist>
+                                    </div>
+                                    <div class="pull-left col-sm-4">
+                                        <label for="date">Day</label>
+                                        <input type="">
+                                    </div>
+                                    <div class="pull-left col-sm-4">
+                                        <label for="year">year</label>
+                                        <input type="text"> 
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="mt-4">
+                                <label for="country">Country/Region</label>
+                                <input type="text" list="location">
+                                <datalist id="location">
+                                    <option value="India"></option>
+                                    <option value="USA"></option>
+                                    <option value="Canada"></option>
+                                    <option value="China"></option>
+
+                                </datalist>
+
+                            </div>
+                        </form><br>
+                        
+                        <footer class="footer">
+                            <p>
+                               By clicking Create account, I agree that: <br>
+                               <ul>
+                                   <li>I have read and accepted the <span><a href="#">Terms of Use.</a></span></li>
+                                   <li>The <span><a href="#">Adobe family of companies</a></span> may keep me informed with <span><a href="#"> personalized</a></span> emails about products and services.</li>
+                               </ul>
+                               See our <span><a href="#">Privacy Policy</a></span> for more details or to opt-out at any time.
+                            </p>
+                            <div class="button pull-right">
+                               <div>
+                                 <span><a href="#">Create account</a></span>
+                               </div>
+                            </div>
+                          
+                        </footer>
+                    </div>
+                </section>
+            </div><!--container end-->
+       </div>
+    </main>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
