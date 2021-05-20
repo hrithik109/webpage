@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 .main-container{
-    background-image: url("https://source.unsplash.com/user/erondu/1600x900");  
+    background-image: url("https://source.unsplash.com/user/erondu/1600x900");
+    height: 100vh;  
 }
 .grid-container{
     display:grid;
@@ -37,11 +38,13 @@
     outline: none;
     outline-style: none;
     width: 100%;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 .email-page h3{
     overflow:hidden;
     text-align: center;
+    font-size: 1em;
+    font-weight: lighter;
     margin-top: 35px;
     margin-bottom: 50px;
 }
