@@ -3,6 +3,8 @@
 }
 .main-container{
     background-image: url("https://source.unsplash.com/user/erondu/1600x900");
+    background-attachment: fixed;
+    height: 100%;
 }
 .grid-container{
     display:grid;
@@ -14,19 +16,8 @@
     background-color: transparent;
 
 }
-.Signup-page header p{
-    font-size: 1.2em;
-}
-.Signup-page form button{
-    background-color: #3b5998;
-    border: 1px solid black;
-    border-radius: 25px;
-    float: right;
-    margin-top: 15px;
-    color:#fff;
-}
 .Signup-page form label{
-    font-size: 1.2em;
+    font-size: 1em;
     font-style: normal;
     font-weight: lighter;
     
@@ -38,7 +29,7 @@
     outline: none;
     outline-style: none;
     width: 100%;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .grid-container section{
@@ -52,39 +43,31 @@
     border:2px solid #fff;
     border-radius: 3px;
 }
+.policy{
+    font-size: 0.7em;
+    font-style: normal;
+    font-weight: normal;
+}
 footer p{
     margin-top: 60px;
     margin-bottom: 0px;
     overflow-wrap: break-word;
 }
-.button{
-    display: grid;
-
-}
-.button span{
-    border: 1px solid #000;
-    border-radius: 25px;
-    background-color: royalblue;
-
-
-}
-.button span a{
-    color: #fff;
-    text-decoration: none;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
 a{
     text-decoration: none;
+}
+.button button{
+    border: 1px solid #000;
+    border-radius: 15px;
+    color: #fff;
+    background-color:#0437f2;
 }
  
 
 /*responsive*/
 @media(max-width:567px){
     .main-container{
-        background-image: none;
+        background-image: none !important;
         background-repeat: no-repeat;
         
     }
